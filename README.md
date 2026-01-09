@@ -18,7 +18,7 @@ Translate API (FastAPI)
 python3 -m venv .venv
 source .venv/bin/activate
 
-2.安装项目依赖
+2.安装项目依赖：
 pip install -r requirements.txt
 
 3. 创建.env文件存储API Key
