@@ -22,7 +22,9 @@ pip install -r requirements.txt
 创建.env文件存储API Key
 
 # 启动服务
-uvicorn main:app --reload
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-访问接口文档：
+访问接口文档（Swagger测试）：
 http://127.0.0.1:8000/docs
+
+
